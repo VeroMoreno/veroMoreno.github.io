@@ -16,7 +16,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/g-mealplan.png" className="thumb-link" title="MealPlan Proyect!" data-size="1050x700">
+                  <a target="_blank" href="https://veromoreno.github.io/meal-plan/" className="thumb-link" title="MealPlan Proyect!" data-size="1050x700">
                     <img src="images/portfolio/mealplan.png" srcSet="images/portfolio/mealplan.png 1x, images/portfolio/mealplan@2x.png 2x" alt="mealPlan!"/>
                     <span className="shadow-overlay" />
                   </a>
@@ -29,7 +29,7 @@ export default class header extends Component {
                     REACT Hooks Proyect
                   </p>
                 </div>
-                <a href="https://veromoreno.github.io/meal-plan/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://veromoreno.github.io/meal-plan/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <div className="item-folio__caption">
@@ -41,7 +41,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/finddel.png" className="thumb-link" title="Finddel" data-size="1050x700">
+                  <a target="_blank" href="http://veromoreno.com/finddel/" className="thumb-link" title="Finddel" data-size="1050x700">
                     <img src="images/portfolio/finddel.png" srcSet="images/portfolio/finddel.png 1x, images/portfolio/finddel.png 2x" />
                     <span className="shadow-overlay" />
                   </a>
@@ -54,7 +54,7 @@ export default class header extends Component {
                     Javascript + PHP + SQL
                   </p>
                 </div>
-                <a href="http://veromoreno.com/finddel/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="http://veromoreno.com/finddel/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <div className="item-folio__caption">
@@ -65,7 +65,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/oldportfolio.png" className="thumb-link" data-size="1050x700">
+                  <a target="_blank" href="ihttps://www.veromoreno.com" className="thumb-link" data-size="1050x700">
                     <img src="images/portfolio/oldportfolio.png" srcSet="images/portfolio/oldportfolio.png 1x, images/portfolio/oldportfolio.png 2x" />
                     <span className="shadow-overlay" />
                   </a>
@@ -78,7 +78,7 @@ export default class header extends Component {
                     HTML5 + CSS3 Old Portfolio
                   </p>
                 </div>
-                <a href="http://veromoreno.com" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://www.veromoreno.com" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <span className="item-folio__caption">
@@ -89,7 +89,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/altafulla.png" className="thumb-link" data-size="1050x700">
+                  <a target="_blank"  href="https://www.altafullamarhotel.com/" className="thumb-link" data-size="1050x700">
                     <img src="images/portfolio/altafulla.png" srcSet="images/portfolio/altafulla.png 1x, images/portfolio/altafulla.png 2x"  />
                     <span className="shadow-overlay" />
                   </a>
@@ -102,7 +102,7 @@ export default class header extends Component {
                     HTML5, CSS3, JQuery + Wordpress
                   </p>
                 </div>
-                <a href="https://www.altafullamarhotel.com/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://www.altafullamarhotel.com/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <span className="item-folio__caption">
@@ -113,7 +113,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/victoria4.png" className="thumb-link" data-size="1050x700">
+                  <a target="_blank"  href="https://www.hotelvictoria4.com/" className="thumb-link" data-size="1050x700">
                     <img src="images/portfolio/victoria4.png" srcSet="images/portfolio/victoria4.png 1x, images/portfolio/victoria4.png 2x"  />
                     <span className="shadow-overlay" />
                   </a>
@@ -126,7 +126,7 @@ export default class header extends Component {
                     HTML5, CSS3, JQuery + Wordpress
                   </p>
                 </div>
-                <a href="https://www.hotelvictoria4.com/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://www.hotelvictoria4.com/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <span className="item-folio__caption">
@@ -137,7 +137,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/can.png" className="thumb-link" data-size="1050x700">
+                  <a target="_blank"  href="https://www.cangalvany.com/" className="thumb-link" data-size="1050x700">
                     <img src="images/portfolio/can.png" srcSet="images/portfolio/can.png 1x, images/portfolio/can.png 2x"  />
                     <span className="shadow-overlay" />
                   </a>
@@ -150,7 +150,7 @@ export default class header extends Component {
                       HTML5, CSS3, JQuery + Wordpress
                   </p>
                 </div>
-                <a href="https://www.cangalvany.com/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://www.cangalvany.com/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <span className="item-folio__caption">
@@ -161,7 +161,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/asus.png" className="thumb-link" data-size="1050x700">
+                  <a target="_blank"  href="https://veromoreno.com/work/asustaninios/" className="thumb-link" data-size="1050x700">
                     <img src="images/portfolio/asus.png" srcSet="images/portfolio/asus.png 1x, images/portfolio/asus.png 2x" />
                     <span className="shadow-overlay" />
                   </a>
@@ -174,7 +174,7 @@ export default class header extends Component {
                     Action Script 3
                   </p>
                 </div>
-                <a href="https://veromoreno.com/work/asustaninios/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://veromoreno.com/work/asustaninios/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <span className="item-folio__caption">
@@ -185,7 +185,7 @@ export default class header extends Component {
             <div className="masonry__brick">
               <div className="item-folio">
                 <div className="item-folio__thumb">
-                  <a href="images/portfolio/gallery/archa.png" className="thumb-link" data-size="1050x700">
+                  <a target="_blank"  href="https://veromoreno.com/work/arcanoid/" className="thumb-link" data-size="1050x700">
                     <img src="images/portfolio/archa.png" srcSet="images/portfolio/archa.png 1x, images/portfolio/archa.png 2x"  />
                     <span className="shadow-overlay" />
                   </a>
@@ -198,7 +198,7 @@ export default class header extends Component {
                   Action Script 3
                   </p>
                 </div>
-                <a href="https://veromoreno.com/work/arcanoid/" className="item-folio__project-link" title="Project link">
+                <a target="_blank" href="https://veromoreno.com/work/arcanoid/" className="item-folio__project-link" title="Project link">
                   <i className="im im-link" />
                 </a>
                 <span className="item-folio__caption">

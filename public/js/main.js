@@ -416,7 +416,7 @@
         ssMoveHeader();
         ssMobileMenu();
         ssMasonryFolio();
-        ssPhotoswipe();
+        // ssPhotoswipe();
         ssSlickSlider();
         ssWaypoints();
         ssStatCount();
