@@ -5,7 +5,9 @@ export default class header extends Component {
     return (
       <header className="s-header">
         <div className="header-logo">
-          <a className="site-logo" href="https://veromoreno.github.io/my-portfolio/"><img src="images/logo.png" alt="Homepage" /></a>
+          <a className="site-logo" href="https://veromoreno.github.io/my-portfolio/">
+            <img src="images/logo.png" alt="Homepage" />
+          </a>
         </div>
         <nav className="header-nav-wrap">
           <ul className="header-nav">

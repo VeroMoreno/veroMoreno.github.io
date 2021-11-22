@@ -11,8 +11,8 @@ export default class header extends Component {
             <h3>Hello There</h3>
             <h1>
               I'm Verónica Moreno. <br />
-              I'm UI Developer, <br />
-              Front-end, &amp; New Fullstack <br /> based in Madrid.
+              UI Developer, <br />
+              Front-end, &amp; New Fullstack <br />
             </h1>
             <div className="home-content__buttons">
               <a href="#works" className="smoothscroll btn btn--stroke">
@@ -35,6 +35,12 @@ export default class header extends Component {
           </li>
           <li>
             <a href="https://github.com/veroMoreno"><i className="im im-github" aria-hidden="true" /><span>Github</span></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/veritechie"><i className="im im-instagram" aria-hidden="true" /><span>Instagram</span></a>
+          </li>
+          <li>
+            <a href="https://www.behance.net/vmoreno"><i className="im im-code" aria-hidden="true" /><span>Dev.to</span></a>
           </li>
           <li>
             <a href="https://www.behance.net/vmoreno"><i className="im im-behance" aria-hidden="true" /><span>Behance</span></a>

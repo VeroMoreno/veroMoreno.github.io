@@ -30,31 +30,31 @@ export default class header extends Component {
             </p>
           </div>
           <div className="col-six tab-full right">
-            <h3>I've Got Some skills.</h3>
-            <ul className="skill-bars">
+            <h3>Skills</h3>
+            <ul className="skill-tags">
               <li>
-                <div className="progress percent50">{/* <span>30%</span> */}</div>
-                <strong>MERN Stack</strong>
+                <h5>Principal Stack</h5>
+                <span>Mongo</span> <span>Express</span> <span>React</span> <span>Node</span>
               </li>
               <li>
-                <div className="progress percent55">{/*<span>40%</span>*/}</div>
-                <strong>Vanilla Javascript</strong>
+                <h5>Frontend Technologies</h5>
+                <span>Javascrispant</span> <span>HTML</span> <span>CSS</span> <span>Resspanonsive Design</span> <span>ReactJS</span> <span>Angular 2+</span> <span>Backbone JS</span> <span>Lodash </span>
               </li>
               <li>
-                <div className="progress percent90">{/*<span>90%</span>*/}</div>
-                <strong>HTML5 ~ CSS3 ~ Responsive</strong>
+                <h5>Backend Technologies</h5>
+                <span>Mongoose</span> <span>Rest Api</span> <span>NodeJS</span> <span>Express</span> <span>MongoDB</span>
               </li>
               <li>
-                <div className="progress percent55">{/*<span>50%</span>*/}</div>
-                <strong>PHP ~ SQL ~ BBDD</strong>
+                <h5>Software Skills</h5>
+                <span>Git</span> <span>Github</span> <span>Bitbucket</span> <span>Robo3T</span> <span>Postman</span> <span>Swagger</span> <span>Jira</span> <span>Storybook</span> <span>Terminal</span> <span>Linux</span> <span>Mac</span>
               </li>
               <li>
-                <div className="progress percent80">{/*<span>80%</span>*/}</div>
-                <strong>Environment develop Linux / Mac</strong>
+                <h5>Technologies I have worked with previously</h5>
+                <span>PHP</span> <span>SQL</span> <span>MySQL</span> <span>jQuery</span>
               </li>
               <li>
-                <div className="progress percent90">{/*<span>90%</span>*/}</div>
-                <strong>CS6 Collection</strong>
+                <h5>Methodologies</h5>
+                <span>Scrum</span>
               </li>
             </ul>
           </div>
@@ -69,14 +69,14 @@ export default class header extends Component {
         </div>
         <div className="row about-content about-content--timeline">
           <div className="col-full text-center">
-            <h3>My Work Experience.</h3>
+            <h3>My Work Experience</h3>
           </div>
           <div className="col-six tab-full left">
             <div className="timeline">
               <div className="timeline__block">
                 <div className="timeline__bullet" />
                 <div className="timeline__header">
-                  <p className="timeline__timeframe">Feb 2019 - Present</p>
+                  <p className="timeline__timeframe">Feb 2019 - Jan 2021</p>
                   <h3>TAPTAP Networks</h3>
                   <h5>Junior FullStack Developer</h5>
                 </div>

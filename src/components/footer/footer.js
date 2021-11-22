@@ -7,7 +7,7 @@ export default class header extends Component {
         <div className="row">
           <div className="col-full">
             <div className="footer-logo">
-              <a className="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage" /></a>
+              <img src="images/veritechie.png" alt="Veritechie" />
             </div>
             <ul className="footer-social">
               <li><a href="https://www.linkedin.com/in/vmorenoflores/" target="_blank">
@@ -17,6 +17,14 @@ export default class header extends Component {
               <li><a href="https://github.com/veroMoreno" target="_blank">
                   <i aria-hidden="true" />
                   <span>Github</span>
+                </a></li>
+                <li><a href="https://instagram.com/veritechie" target="_blank">
+                  <i aria-hidden="true" />
+                  <span>Instagram</span>
+                </a></li>
+                <li><a href="https://dev.to/veritechie" target="_blank">
+                  <i aria-hidden="true" />
+                  <span>Dev.to</span>
                 </a></li>
               <li><a href="https://www.behance.net/vmoreno" target="_blank">
                   <i aria-hidden="true" />
