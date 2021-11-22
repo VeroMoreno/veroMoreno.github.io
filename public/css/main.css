@@ -4908,3 +4908,8 @@ article.blog-single .blog-content {
     width: 50%;
     display: flex;
 }
+
+.s-testimonials .btn i {
+    vertical-align: middle;
+    margin-right: 10px;
+}

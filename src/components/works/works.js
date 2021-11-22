@@ -53,6 +53,7 @@ export default class header extends Component {
             </a>
             ))}
         </ul>
+        <a className="btn btn--primary" href="https://github.com/veroMoreno" rel="noreferrer" target="_blank"><i className="im im-github" aria-hidden="true" />Follow me on Github</a>
         </div></div>
         </section>
         <section id="works" className="s-works target-section">
