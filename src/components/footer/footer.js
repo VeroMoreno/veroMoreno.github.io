@@ -36,7 +36,7 @@ export default class header extends Component {
         <div className="row footer-bottom">
           <div className="col-twelve">
             <div className="copyright">
-              <span>© Copyright 2021</span>
+              <span>© Copyright 2022</span>
               <span>Design by <a href="https://veromoreno.github.io/my-portfolio/">me, Verónica, with ♥</a></span>
             </div>
             <div className="go-top">

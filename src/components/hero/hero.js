@@ -11,8 +11,8 @@ export default class header extends Component {
             <h3>Hello There</h3>
             <h1>
               I'm Verónica Moreno. <br />
-              UI Developer, <br />
-              Front-end, &amp; New Fullstack <br />
+              Front-end + UI Developer, <br />
+              &amp; future Fullstack <br />
             </h1>
             <div className="home-content__buttons">
               <a href="#works" className="smoothscroll btn btn--stroke">
