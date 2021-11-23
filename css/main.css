@@ -3310,6 +3310,8 @@ ul.skill-tags li {
     position: relative;
 }
 
+.s-testimonials h1, .s-social h1 { color:rgb(230, 230, 230)}
+
 .s-testimonials .overlay {
     position: absolute;
     top: 0;
@@ -4909,7 +4911,36 @@ article.blog-single .blog-content {
     display: flex;
 }
 
-.s-testimonials .btn i {
+.s-testimonials .btn i, .s-social .btn i {
     vertical-align: middle;
     margin-right: 10px;
+}
+
+/* Social */
+.stats ul {
+    display: flex;
+    justify-content: center;
+}
+
+.stats ul li {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.stats ul li span:nth-child(1) {
+    font-size: 3rem;
+    color: #7044e6;
+}
+
+.stats ul li span:nth-child(1):after {content: "";width: 50px;height: 1px;background: white;color: white;}
+
+.s-social {
+    background-color: #2e004a;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    padding-top: 9.6rem;
+    padding-bottom: 10.2rem;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
 }
