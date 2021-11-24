@@ -4919,13 +4919,16 @@ article.blog-single .blog-content {
 /* Social */
 .stats ul {
     display: flex;
-    justify-content: center;
+    margin-left: 0;
+    flex-wrap: wrap;
 }
 
 .stats ul li {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 0;
+    flex-grow: 1;
+    min-width: 18rem;
 }
 
 .stats ul li span:nth-child(1) {
