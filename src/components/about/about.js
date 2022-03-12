@@ -38,14 +38,7 @@ export default class header extends Component {
               </li>
               <li>
                 <h5>Frontend Technologies</h5>
-                <span>Javascript</span>
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Responsive Design</span>
-                <span>ReactJS</span>
-                <span>Angular 2+</span>
-                <span>Backbone JS</span>
-                <span>Lodash </span>
+                <span>Javascript</span> <span>HTML</span> <span>CSS</span> <span>Responsive Design</span> <span>ReactJS</span> <span>Angular 2+</span> <span>Backbone JS</span><span>Lodash </span>
               </li>
               <li>
                 <h5>Backend Technologies</h5>

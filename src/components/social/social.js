@@ -32,7 +32,7 @@ export default class header extends Component {
                 </li>
               </ul>
             </div>
-            <a className="btn btn--primary" href="https://instagram.com/veritechie" rel="noreferrer" target="_blank"><i className="im im-instagram" aria-hidden="true" />See my project on Instagram</a>
+            <a className="btn btn--primary" href="https://instagram.com/veritechie" rel="noreferrer" target="_blank"><i className="im im-instagram" aria-hidden="true" />Follow me</a>
         </div>
         </section>
     )
