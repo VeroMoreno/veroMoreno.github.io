@@ -1,6 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-export default class header extends Component {
+export default class Footer extends Component {
+  scrollToTop = (e) => {
+    e.preventDefault(); // Evita el comportamiento predeterminado del enlace
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Desplazamiento suave
+    });
+  };
+
   render() {
     return (
       <footer>
@@ -10,26 +18,56 @@ export default class header extends Component {
               <img src="images/veritechie.png" alt="Veritechie" />
             </div>
             <ul className="footer-social">
-              <li><a href="https://www.linkedin.com/in/vmorenoflores/" target="_blank">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/veritechie/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i aria-hidden="true" />
                   <span>LinkedIn</span>
-                </a></li>
-              <li><a href="https://github.com/veroMoreno" target="_blank">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/veroMoreno"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i aria-hidden="true" />
                   <span>Github</span>
-                </a></li>
-                <li><a href="https://instagram.com/veritechie" target="_blank">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com/veritechie"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i aria-hidden="true" />
                   <span>Instagram</span>
-                </a></li>
-                <li><a href="https://dev.to/veritechie" target="_blank">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://dev.to/veritechie"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i aria-hidden="true" />
                   <span>Dev.to</span>
-                </a></li>
-              <li><a href="https://www.behance.net/vmoreno" target="_blank">
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.behance.net/vmoreno"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <i aria-hidden="true" />
                   <span>Behance</span>
-                </a></li>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -37,14 +75,24 @@ export default class header extends Component {
           <div className="col-twelve">
             <div className="copyright">
               <span>© Copyright 2022</span>
-              <span>Design by <a href="https://veromoreno.github.io/my-portfolio/">me, Verónica, with ♥</a></span>
+              <span>
+                Design by{" "}
+                <a href="https://veromoreno.github.io/">me, Verónica, with ♥</a>
+              </span>
             </div>
             <div className="go-top">
-              <a className="smoothscroll" title="Back to Top" href="#top"><i className="im im-arrow-up" aria-hidden="true" /></a>
+              <a
+                className="smoothscroll"
+                title="Back to Top"
+                href="#top"
+                onClick={this.scrollToTop}
+              >
+                <i className="im im-arrow-up" aria-hidden="true" />
+              </a>
             </div>
           </div>
         </div>
       </footer>
-    )
+    );
   }
 }

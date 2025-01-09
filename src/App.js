@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import Header from './components/header/header';
-import About from './components/about/about';
-import Contact from './components/contact/contact';
-import Works from './components/works/works';
-import Footer from './components/footer/footer';
-import Hero from './components/hero/hero';
-import Github from './components/github/github'
-import Social from './components/social/social'
+import React, { Component } from "react";
+import Header from "./components/header/header";
+import About from "./components/about/about";
+import Contact from "./components/contact/contact";
+// import Works from "./components/works/works";
+import Footer from "./components/footer/footer";
+import Hero from "./components/hero/hero";
+import Github from "./components/github/github";
+import Social from "./components/social/social";
 
 class App extends Component {
   render() {
@@ -17,7 +17,6 @@ class App extends Component {
         <About />
         <Github />
         <Social />
-        <Works />
         <Contact />
         <Footer />
       </div>
